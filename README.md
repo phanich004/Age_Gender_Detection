@@ -1,4 +1,4 @@
-# Gender-and-Age-Detection   <img alt="GitHub" src="https://img.shields.io/github/license/smahesh29/Gender-and-Age-Detection">
+# Age_Gender_Detection   <img alt="GitHub" src="https://img.shields.io/github/license/smahesh29/Gender-and-Age-Detection">
 
 
 <h2>Objective :</h2>
@@ -53,17 +53,10 @@
   <li>Press <b>Ctrl + C</b> to stop the program execution.</li>
 </ul>
 
-# Working:
-[![Watch the video](https://img.youtube.com/vi/ReeccRD21EU/0.jpg)](https://youtu.be/ReeccRD21EU)
+
 
 <h2>Examples :</h2>
-<p><b>NOTE:- I downloaded the images from Google,if you have any query or problem i can remove them, i just used it for Educational purpose.</b></p>
 
-    >python detect.py --image girl1.jpg
-    Gender: Female
-    Age: 25-32 years
-    
-<img src="Example/Detecting age and gender girl1.png">
 
     >python detect.py --image girl2.jpg
     Gender: Female
@@ -89,15 +82,12 @@
     
 <img src="Example/Detecting age and gender man1.png">
 
-    >python detect.py --image man2.jpg
-    Gender: Male
+
+    >python detect.py --image girl1.jpg
+    Gender: Female
     Age: 25-32 years
     
-<img src="Example/Detecting age and gender man2.png">
+<img src="Example/Detecting age and gender girl1.png">
 
-    >python detect.py --image woman1.jpg
-    Gender: Female
-    Age: 38-43 years
-    
-<img src="Example/Detecting age and gender woman1.png">
+   
               
