@@ -1,10 +1,10 @@
-#A Gender and Age Detection program by Mahesh Sawant
 
+#Import required libraries
 import cv2
 import math
 import argparse
 
-def highlightFace(net, frame, conf_threshold=0.7):
+def facecheckbox(net, frame, conf_threshold=0.8):
     frameOpencvDnn=frame.copy()
     frameHeight=frameOpencvDnn.shape[0]
     frameWidth=frameOpencvDnn.shape[1]
@@ -53,7 +53,7 @@ while cv2.waitKey(1)<0 :
         cv2.waitKey()
         break
     
-    resultImg,faceBoxes=highlightFace(faceNet,frame)
+    resultImg,faceBoxes=facecheckbox(faceNet,frame)
     if not faceBoxes:
         print("No face detected")
 
