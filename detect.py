@@ -3,7 +3,7 @@
 import cv2
 import math
 import argparse
-
+#Function to create a box around face
 def facecheckbox(net, frame, conf_threshold=0.8):
     frameOpencvDnn=frame.copy()
     frameHeight=frameOpencvDnn.shape[0]
