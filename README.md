@@ -1,24 +1,16 @@
-# Age_Gender_Detection   <img alt="GitHub" src="https://img.shields.io/github/license/smahesh29/Gender-and-Age-Detection">
-
+# Age_Gender_Detection  
 
 <h2>Project aim :</h2>
-<p>To build a age and gender detector that can approximately guess the gender and age of the person (face) in a picture or through webcam.</p>
+<p>To build a age and gender detector which can  guess the gender and age of the person in a picture.</p>
 
 
-<h2>Dataset :</h2>
-<p>For this python project, I had used the Adience dataset; the dataset is available in the public domain and you can find it <a href="https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification">here</a>.</p>
-
-<h2> Libraries Required :</h2>
-<ul>
-  <li>OpenCV</li>
-  
-       pip install opencv-python
-</ul>
 
 
- <h2>Usage :</h2>
+
+
+ <h2>To use :</h2>
  <ul>
-  <li>Open your Command Prompt or Terminal and change directory to the folder where all the files are present.</li>
+  <li>Open your Terminal or Command Prompt  and change directory to the folder where all the files are present.</li>
   <li><b>Detecting Gender and Age of face in Image</b> Use Command :</li>
   
       python detect.py --image <image_name>
